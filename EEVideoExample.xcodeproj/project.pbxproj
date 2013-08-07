@@ -35,6 +35,8 @@
 		6319B3A317B2E1F90086FB57 /* pinchtozoomlogo_REVERSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 6319B3A217B2E1F90086FB57 /* pinchtozoomlogo_REVERSE.png */; };
 		6319B3A417B2E1F90086FB57 /* pinchtozoomlogo_REVERSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 6319B3A217B2E1F90086FB57 /* pinchtozoomlogo_REVERSE.png */; };
 		6319B3A617B2E7540086FB57 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319B3A517B2E7540086FB57 /* AVFoundation.framework */; };
+		6319B3A817B2F47A0086FB57 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6319B3A717B2F47A0086FB57 /* logo.png */; };
+		6319B3AA17B2F47E0086FB57 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6319B3A917B2F47E0086FB57 /* logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		6319B39F17B2E1CE0086FB57 /* AboutPinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPinchViewController.m; sourceTree = "<group>"; };
 		6319B3A217B2E1F90086FB57 /* pinchtozoomlogo_REVERSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinchtozoomlogo_REVERSE.png; sourceTree = "<group>"; };
 		6319B3A517B2E7540086FB57 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6319B3A717B2F47A0086FB57 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		6319B3A917B2F47E0086FB57 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 		6319B34817B2AFF70086FB57 = {
 			isa = PBXGroup;
 			children = (
+				6319B3A917B2F47E0086FB57 /* logo@2x.png */,
+				6319B3A717B2F47A0086FB57 /* logo.png */,
 				6319B35A17B2AFF70086FB57 /* EEVideoExample */,
 				6319B37817B2AFF70086FB57 /* EEVideoExampleTests */,
 				6319B35317B2AFF70086FB57 /* Frameworks */,
@@ -267,6 +273,8 @@
 				6319B39917B2BF140086FB57 /* PinchToZoom.m4v in Resources */,
 				6319B39C17B2E1BE0086FB57 /* AboutPinch.storyboard in Resources */,
 				6319B3A317B2E1F90086FB57 /* pinchtozoomlogo_REVERSE.png in Resources */,
+				6319B3A817B2F47A0086FB57 /* logo.png in Resources */,
+				6319B3AA17B2F47E0086FB57 /* logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +425,7 @@
 				GCC_PREFIX_HEADER = "EEVideoExample/EEVideoExample-Prefix.pch";
 				INFOPLIST_FILE = "EEVideoExample/EEVideoExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -428,6 +437,7 @@
 				GCC_PREFIX_HEADER = "EEVideoExample/EEVideoExample-Prefix.pch";
 				INFOPLIST_FILE = "EEVideoExample/EEVideoExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

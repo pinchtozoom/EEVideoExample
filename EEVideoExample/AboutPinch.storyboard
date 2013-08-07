@@ -46,14 +46,14 @@ For further information please contact me using the details below.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Contact:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPH-Zc-FN6">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="64" id="fTC-Pb-Ore"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="David Hopkinson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2e-sl-X97">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="208" id="CQO-XG-REw"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -84,8 +84,7 @@ For further information please contact me using the details below.</string>
                             <constraint firstAttribute="trailing" secondItem="VzG-bq-daR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2bR-57-In2"/>
                             <constraint firstItem="uoh-gu-Oup" firstAttribute="top" secondItem="pDo-ie-6zZ" secondAttribute="top" constant="-5" id="3ZO-gV-lfV"/>
                             <constraint firstItem="aSX-o6-3BP" firstAttribute="baseline" secondItem="n9o-xN-2TY" secondAttribute="baseline" type="default" id="4YN-us-gn9"/>
-                            <constraint firstAttribute="trailing" secondItem="Q2e-sl-X97" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="5EB-Ps-Fb2"/>
-                            <constraint firstItem="Q2e-sl-X97" firstAttribute="leading" secondItem="jPH-Zc-FN6" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="9oK-yV-OSx"/>
+                            <constraint firstItem="jPH-Zc-FN6" firstAttribute="trailing" secondItem="lq5-TE-p30" secondAttribute="trailing" type="default" id="56Z-n9-Ubc"/>
                             <constraint firstItem="jPH-Zc-FN6" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="C8Y-yG-PTW"/>
                             <constraint firstItem="VzG-bq-daR" firstAttribute="top" secondItem="pDo-ie-6zZ" secondAttribute="top" constant="110" id="CMN-Lx-0mV"/>
                             <constraint firstItem="6U6-e7-Nad" firstAttribute="trailing" secondItem="pDo-ie-6zZ" secondAttribute="trailing" type="default" id="EUk-lo-HAO"/>
@@ -94,16 +93,18 @@ For further information please contact me using the details below.</string>
                             <constraint firstItem="Q2e-sl-X97" firstAttribute="baseline" secondItem="jPH-Zc-FN6" secondAttribute="baseline" type="default" id="Vdr-4l-hbK"/>
                             <constraint firstItem="6U6-e7-Nad" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" type="default" id="YPv-Er-uhT"/>
                             <constraint firstItem="VzG-bq-daR" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="aM8-2I-a3M"/>
-                            <constraint firstAttribute="trailing" secondItem="aSX-o6-3BP" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="dne-Yg-GMC"/>
-                            <constraint firstAttribute="trailing" secondItem="aPj-Gg-r9j" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ejn-Bp-AP9"/>
+                            <constraint firstItem="Q2e-sl-X97" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" constant="101" id="bFd-vY-TgI"/>
                             <constraint firstItem="lq5-TE-p30" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="j8w-j2-CLg"/>
+                            <constraint firstItem="aSX-o6-3BP" firstAttribute="trailing" secondItem="aPj-Gg-r9j" secondAttribute="trailing" type="default" id="je6-Cr-BNX"/>
                             <constraint firstItem="aSX-o6-3BP" firstAttribute="leading" secondItem="aPj-Gg-r9j" secondAttribute="leading" type="default" id="kyf-IC-lPC"/>
                             <constraint firstItem="n9o-xN-2TY" firstAttribute="top" secondItem="lq5-TE-p30" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lHp-GN-P9p"/>
                             <constraint firstItem="uoh-gu-Oup" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" constant="242" id="mnY-AZ-W67"/>
+                            <constraint firstItem="aPj-Gg-r9j" firstAttribute="trailing" secondItem="Q2e-sl-X97" secondAttribute="trailing" type="default" id="psJ-kj-xeh"/>
                             <constraint firstItem="n9o-xN-2TY" firstAttribute="leading" secondItem="pDo-ie-6zZ" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qG0-wT-MOn"/>
                             <constraint firstItem="lq5-TE-p30" firstAttribute="top" secondItem="jPH-Zc-FN6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="tfx-nt-IC1"/>
                             <constraint firstItem="aPj-Gg-r9j" firstAttribute="baseline" secondItem="lq5-TE-p30" secondAttribute="baseline" type="default" id="vbI-Lc-dpS"/>
                             <constraint firstItem="aPj-Gg-r9j" firstAttribute="leading" secondItem="Q2e-sl-X97" secondAttribute="leading" type="default" id="wtP-Ah-fw1"/>
+                            <constraint firstItem="n9o-xN-2TY" firstAttribute="trailing" secondItem="lq5-TE-p30" secondAttribute="trailing" type="default" id="xh0-mP-bGP"/>
                         </constraints>
                     </view>
                 </viewController>
