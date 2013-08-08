@@ -54,6 +54,7 @@
     
     _moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:theurl];
     [_moviePlayer.view setFrame:self.view.frame];
+    [_moviePlayer setScalingMode:MPMovieScalingModeAspectFill];
     [_moviePlayer prepareToPlay];
     [_moviePlayer setShouldAutoplay:YES];
     [_moviePlayer setFullscreen:YES];
